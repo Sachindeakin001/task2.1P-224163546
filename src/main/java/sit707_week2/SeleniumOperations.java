@@ -137,7 +137,7 @@ public class SeleniumOperations {
         // Take screenshot of the current page (after failing password validation)
         File screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
         try {
-            FileHandler.copy(screenshot, new File("jbhifi_registration_failed.png"));
+            FileHandler.copy(screenshot, new File("chemist_warehouse_registration_failed.png"));
         } catch (IOException e) {
             e.printStackTrace();
         }
